@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary color of the app (shown in the app bar) -->
+    <color name="primary_color">#4F5B14</color>
+
+    <!-- Primary dark color of the app (shown in the status bar) -->
+    <color name="primary_dark_color">#4F5B14</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the cakes category -->
+    <color name="category_cakes">#6A791B</color>
+
+    <!-- Background color for desserts category -->
+    <color name="category_desserts">#616F19</color>
+
+    <!-- Background color for the coffee category -->
+    <color name="category_coffee">#576416</color>
+
+    <!-- Background color for the drinks category -->
+    <color name="category_drinks">#4F5B14</color>
+</resources>

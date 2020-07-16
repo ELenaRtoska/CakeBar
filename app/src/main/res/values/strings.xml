@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CakeBar</string>
+    <string name="d_s" translatable="false">%d %s</string>
+    <string name="s_d" translatable="false">%s (%s)</string>
+    <string name="s_s" translatable="false">%s %s</string>
+    <string name="s_s_s_s" translatable="false">%s %s %s %s</string>
+</resources>

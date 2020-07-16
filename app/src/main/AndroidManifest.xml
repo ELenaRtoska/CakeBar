@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cakebar">
+
+    <application
+        android:name="com.example.cakebar.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.cakebar.activities.FirstScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.FirstScreenActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.cakebar.activities.CakesActivity"
+            android:label="Cakes Aktivity"
+            android:parentActivityName="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.MainActivity"/>
+        </activity>
+
+        <activity
+            android:name="com.example.cakebar.activities.DessertsActivity"
+            android:label="Desserts Aktivity"
+            android:parentActivityName="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.cakebar.activities.CoffeeActivity"
+            android:label="Coffee Aktivity"
+            android:parentActivityName="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.cakebar.activities.DrinksActivity"
+            android:label="Drinks Aktivity"
+            android:parentActivityName="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.MainActivity"/>
+        </activity>
+        <activity
+            android:name="com.example.cakebar.activities.OrderActivity"
+            android:label="Order"
+            android:parentActivityName="com.example.cakebar.activities.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.cakebar.activities.MainActivity"/>
+        </activity>
+
+
+
+
+
+    </application>
+
+</manifest>
